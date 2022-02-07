@@ -13,21 +13,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#contributors">Contributors</a>
-      <ul>
-        <li><a href="#patrick-lorden">Patrick Lorden</a></li>
-        <li><a href="#matthew-zipkes">Matthew Zipkes</a></li>
-        <li><a href="#alex-ni">Alex Ni</a></li>
-        <li><a href="#sam-martin">Sam Martin</a></li>
-      </ul>
-    </li>
     <li><a href="#introduction">Introduction</a></li>
-    <li>
-      <a href="#project-overview">Project Overview</a>
-      <ul>
-        <li><a href="#tech-stack">Tech Stack</a></li>
-      </ul>
-    </li>
     <li><a href="#application-demo">Application Demo</a></li>
     <li><a href="#api-documentation">API Documentation</a></li>
     <li>
@@ -37,60 +23,6 @@
 </details>
 <br>
 
-<!-- Contributors -->
-
-# Contributors
-
-## Patrick Lorden
-
-pjlorden@gmail.com
-
-Product Manager/Software Engineer
-
-<a href="https://imgur.com/5Uoh0yj"><img src="https://i.imgur.com/5Uoh0yj.png" height='200px' title="source: imgur.com" /></a>
-
-[![linkedin-shield]][patrick-linkedin]
-[![github-shield]][patrick-github]
-
-<br>
-
-## Matthew Zipkes
-
-MatthewZipkes@gmail.com
-
-Co-Architecture Owner/Software Engineer
-
-<a href="https://imgur.com/tegDTCR"><img src="https://i.imgur.com/tegDTCR.jpg" height='200px' title="source: imgur.com" /></a>
-
-[![linkedin-shield]][matthew-linkedin]
-[![github-shield]][matthew-github]
-
-<br>
-
-## Alex Ni
-
-email here
-
-Co-Architecture Owner/Software Engineer
-
- <img src="ReadmeImages/WilliamFink.jpeg" alt="Alex Ni Headshot" height="150">
-
-<!-- [![linkedin-shield]][alex-linkedin] -->
-[![github-shield]][alex-github]
-
-<br>
-
-## Sam Martin
-
-martin110sam@gmail.com
-
-UI Owner/Software Engineer
-
-<a href="https://imgur.com/AJS8ZVK"><img src="https://i.imgur.com/AJS8ZVK.jpg" height='200px' title="source: imgur.com" /></a>
-
-[![linkedin-shield]][sam-linkedin]
-[![github-shield]][sam-github]
-<br>
 
 # Introduction
 
@@ -100,33 +32,6 @@ UI Owner/Software Engineer
 </div><br>
 
 Gourmet Made Easie was a collaborative Full-Stack capstone between the 4 collaborators. This was a brief 1-week sprint that simulated the real-world development of a Full-Stack web application to the demands provided by the client.
-
-<br>
-
-# Project Overview
-
-<br>
-
-This project was a brief 1-week sprint where our team tried to complete an MVP for an external user.
-
-> "I'd like to create an app where users can find recipes to cook without all of the noise that come with most recipe applications, and allow the user to use the page easily while cooking. I want a feature that can choose for me when I cannot decide."
-
-Team Member Expectations and Workflow:
-
-- Oversaw their own module while working in collaboration with teammates to ensure interactive functionality
-- Communicated their progress in daily standups
-- Created and completed their task tickets using Trello
-- Brainstormed and reflected the teams work in 2 day mini-sprints
-
-### Tech Stack
-
-- [React](https://reactjs.org/)
-- [Sass](https://sass-lang.com/)
-- [Axios](https://axios-http.com/)
-- [Express](https://expressjs.com/)
-- [Postgres](https://www.postgresql.org/)
-- [Webpack](https://webpack.js.org/)
-<br>
 
 ## Application Demo
 <br>
@@ -438,7 +343,6 @@ Team Member Expectations and Workflow:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-
 |  mealType | [String] | full options are "breakfast", "brunch", "lunch", "appetizer", "dinner" and/or "dessert" |
 |  protein | [String] | full options are "poultry", "beef", "pork", "seafood", "vegetarian" and/or "vegan". |
 |  sort | String  | defaulted to "relavent" if not provided; other options are "newest" and "favorite" |
@@ -526,7 +430,6 @@ Team Member Expectations and Workflow:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-
 |  search | String | if empty string is provided it is equivalent to GET /recipe/cards (get all cards); on search will filter recipes containing the string you searched for |
 - Request Body Example:
 ```javascript
