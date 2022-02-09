@@ -8,7 +8,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#application-demo">Application Demo</a></li>
+    <li><a href="#demo">Demo</a></li>
     <li><a href="#api-documentation">API Documentation</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -19,9 +19,10 @@
 
 
 # Introduction
-Gourmet Made Easie was a collaborative Full-Stack capstone between the 4 collaborators. This was a brief 1-week sprint that simulated the real-world development of a Full-Stack web application to the demands provided by the client.
+Gourmet Made Easie is a collaborative Full-Stack application between 4 collaborators. It is an app that allows users to sign up an account in order to create, share, search for and save recipes.
 
-# Application Demo
+
+# Demo
 <br>
 <div align="center">
 <img src="./docs/home_page.gif" alt="Gourmet Made Easie Logo"/>
